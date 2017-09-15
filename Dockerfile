@@ -1,6 +1,6 @@
 FROM azul/zulu-openjdk
 
-EXPOSE 8080
+EXPOSE 8081
 
 # COPY jar to the container
 COPY build/libs/arcgis-restapi-ov-0.1.1.jar /app/arcgis-restapi-ov-0.1.1.jar

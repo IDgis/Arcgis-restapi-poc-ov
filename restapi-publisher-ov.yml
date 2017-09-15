@@ -6,9 +6,9 @@ services:
         image: idgis/arcgis-restapi-ov:0.1.1
         restart: always
         expose:
-            - "8080"
+            - "8081"
         ports:
-            - "${IP_ADDR}:8080:8080"
+            - "${IP_ADDR}:8081:8081"
         environment:
             - DB_USER=publisher
             - DB_PASSWORD=${PUB_PG_PASSWORD}
