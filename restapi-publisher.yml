@@ -13,4 +13,4 @@ services:
             - DB_USER=publisher
             - DB_PASSWORD=${PUB_PG_PASSWORD}
             - DB_PORT=5432
-            - DB_HOST=dev_pub.db_1
+            - DB_HOST=ov_pub.db_1
