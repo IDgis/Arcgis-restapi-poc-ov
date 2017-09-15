@@ -1,0 +1,187 @@
+{
+	"currentVersion": 10.51,
+	"id": 0,
+	"name": "Archeologische Verwachtingenkaart",
+	"type": "Feature Layer",
+	"serviceItemId": "edf6d445a5524f7a8739241986ee3bfc",
+	"displayField": "OBJECTID",
+	"description": "",
+	"copyrightText": "",
+	"defaultVisibility": true,
+	"editingInfo": {
+		"lastEditDate": null
+	},
+	"relationships": [],
+	"isDataVersioned": false,
+	"supportsCalculate": false,
+	"supportsTruncate": false,
+	"supportsAttachmentsByUploadId": false,
+	"supportsRollbackOnFailureParameter": false,
+	"supportsStatistics": false,
+	"supportsAdvancedQueries": false,
+	"supportsValidateSql": false,
+	"supportsCoordinatesQuantization": false,
+	"supportsApplyEditsWithGlobalIds": false,
+	"advancedQueryCapabilities": {
+		"supportsPagination": true,
+		"supportsPaginationOnAggregatedQueries": true,
+		"supportsQueryRelatedPagination": true,
+		"supportsQueryWithDistance": true,
+		"supportsReturningQueryExtent": true,
+		"supportsStatistics": false,
+		"supportsOrderBy": true,
+		"supportsDistinct": true,
+		"supportsQueryWithResultType": true,
+		"supportsSqlExpression": true,
+		"supportsAdvancedQueryRelated": true,
+		"supportsReturningGeometryCentroid": false,
+		"supportsQueryWithDatumTransformation": true
+	},
+	"useStandardizedQueries": false,
+	"geometryType": "esriGeometryPolygon",
+	"minScale": 0,
+	"maxScale": 0,
+	"extent": {
+		"xmin": 182543.1,
+		"ymin": 459720.3,
+		"xmax": 269803.105,
+		"ymax": 541043.8,
+		"spatialReference": {
+			"wkid": 28992,
+			"latestWkid": 28992
+		}
+	},
+	"drawingInfo": {
+		"renderer": {
+			"type": "simple",
+			"symbol": {
+				"type": "esriSFS",
+				"style": "esriSFSSolid",
+				"color": [
+					0,
+					0,
+					0,
+					0
+				],
+				"outline": {
+					"type": "esriSLS",
+					"style": "esriSLSSolid",
+					"color": [
+						255,
+						0,
+						0,
+						255
+					],
+					"width": 0.40000000000000002
+				}
+			},
+			"label": "",
+			"description": ""
+		},
+		"transparency": 0,
+		"labelingInfo": null
+	},
+	"allowGeometryUpdates": false,
+	"hasAttachments": false,
+	"htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+	"hasM": false,
+	"hasZ": false,
+	"objectIdField": "OBJECTID",
+	"globalIdField": "",
+	"typeIdField": "",
+	"fields": [
+		{
+			"name": "OBJECTID",
+			"type": "esriFieldTypeOID",
+			"alias": "OBJECTID",
+			"sqlType": "sqlTypeOther",
+			"nullable": false,
+			"editable": false,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "CD_VISIE",
+			"type": "esriFieldTypeInteger",
+			"alias": "CD_VISIE",
+			"sqlType": "sqlTypeOther",
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "VERWACHTIN",
+			"type": "esriFieldTypeString",
+			"alias": "VERWACHTIN",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "OMSCHRIJVI",
+			"type": "esriFieldTypeString",
+			"alias": "OMSCHRIJVI",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "ONDERZOEKS",
+			"type": "esriFieldTypeString",
+			"alias": "ONDERZOEKS",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		}
+	],
+	"indexes": [
+		{
+			"name": "FDO_OBJECTID",
+			"fields": "OBJECTID",
+			"isAscending": true,
+			"isUnique": true,
+			"description": ""
+		},
+		{
+			"name": "FDO_SHAPE",
+			"fields": "SHAPE",
+			"isAscending": true,
+			"isUnique": false,
+			"description": ""
+		}
+	],
+	"types": [],
+	"templates": [
+		{
+			"name": "Archeologische Verwachtingenkaart",
+			"description": "",
+			"drawingTool": "esriFeatureEditToolPoint",
+			"prototype": {
+				"attributes": {
+					"CD_VISIE": null,
+					"VERWACHTIN": null,
+					"OMSCHRIJVI": null,
+					"ONDERZOEKS": null
+				}
+			}
+		}
+	],
+	"supportedQueryFormats": "JSON, geoJSON",
+	"hasStaticData": false,
+	"maxRecordCount": 1000,
+	"size": -1,
+	"standardMaxRecordCount": 32000,
+	"tileMaxRecordCount": 8000,
+	"maxRecordCountFactor": 1,
+	"capabilities": "Query"
+}

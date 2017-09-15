@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+    	jcenter()
+    }
+    dependencies {
+        classpath('org.springframework.boot:spring-boot-gradle-plugin:1.4.2.RELEASE')
+        classpath 'com.bmuschko:gradle-docker-plugin:3.0.7'
+    }
+}
+
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+mainClassName = "nl.idgis.Application"
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-devtools')
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
+    compile('org.postgresql:postgresql')
+    compile('com.google.code.gson:gson:2.2.4')
+    compile group: 'com.vividsolutions', name: 'jts', version: '1.13'
+    compile group: 'org.wololo', name: 'jts2geojson', version: '0.10.0'
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    
+    compile files('./includes/Terraformer-1.0.jar')
+}
+
+jar {
+    baseName = 'arcgis-restapi-ov'
+    version = '0.1.1'
+}

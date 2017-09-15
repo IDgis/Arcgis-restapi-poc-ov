@@ -1,0 +1,242 @@
+{
+	"currentVersion": 10.51,
+	"id": 2,
+	"name": "Onderwijsinstellingen",
+	"type": "Feature Layer",
+	"serviceItemId": "edf6d445a5524f7a8739241986ee3bfc",
+	"displayField": "OBJECTID",
+	"description": "",
+	"copyrightText": "",
+	"defaultVisibility": true,
+	"editingInfo": {
+		"lastEditDate": null
+	},
+	"relationships": [],
+	"isDataVersioned": false,
+	"supportsCalculate": false,
+	"supportsTruncate": false,
+	"supportsAttachmentsByUploadId": false,
+	"supportsRollbackOnFailureParameter": false,
+	"supportsStatistics": false,
+	"supportsAdvancedQueries": false,
+	"supportsValidateSql": false,
+	"supportsCoordinatesQuantization": false,
+	"supportsApplyEditsWithGlobalIds": false,
+	"advancedQueryCapabilities": {
+		"supportsPagination": true,
+		"supportsPaginationOnAggregatedQueries": true,
+		"supportsQueryRelatedPagination": true,
+		"supportsQueryWithDistance": true,
+		"supportsReturningQueryExtent": true,
+		"supportsStatistics": false,
+		"supportsOrderBy": true,
+		"supportsDistinct": true,
+		"supportsQueryWithResultType": true,
+		"supportsSqlExpression": true,
+		"supportsAdvancedQueryRelated": true,
+		"supportsReturningGeometryCentroid": false,
+		"supportsQueryWithDatumTransformation": true
+	},
+	"useStandardizedQueries": false,
+	"geometryType": "esriGeometryPoint",
+	"minScale": 0,
+	"maxScale": 0,
+	"extent": {
+		"xmin": 185971,
+		"ymin": 462218,
+		"xmax": 267907,
+		"ymax": 537742,
+		"spatialReference": {
+			"wkid": 28992,
+			"latestWkid": 28992
+		}
+	},
+	"drawingInfo": {},
+	"allowGeometryUpdates": false,
+	"hasAttachments": false,
+	"htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+	"hasM": false,
+	"hasZ": false,
+	"objectIdField": "OBJECTID",
+	"globalIdField": "",
+	"typeIdField": "",
+	"fields": [
+		{
+			"name": "OBJECTID",
+			"type": "esriFieldTypeOID",
+			"alias": "OBJECTID",
+			"sqlType": "sqlTypeOther",
+			"nullable": false,
+			"editable": false,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "VESTNAAM",
+			"type": "esriFieldTypeString",
+			"alias": "VESTNAAM",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "STRAATNAAM",
+			"type": "esriFieldTypeString",
+			"alias": "STRAATNAAM",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "HUISNR_TOE",
+			"type": "esriFieldTypeString",
+			"alias": "HUISNR_TOE",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "POSTCODE",
+			"type": "esriFieldTypeString",
+			"alias": "POSTCODE",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "PLAATSNAAM",
+			"type": "esriFieldTypeString",
+			"alias": "PLAATSNAAM",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "GEMEENTENA",
+			"type": "esriFieldTypeString",
+			"alias": "GEMEENTENA",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "TELEFOONNU",
+			"type": "esriFieldTypeString",
+			"alias": "TELEFOONNU",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "HOOFDTYPE",
+			"type": "esriFieldTypeString",
+			"alias": "HOOFDTYPE",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "ONDWGEBI_1",
+			"type": "esriFieldTypeString",
+			"alias": "ONDWGEBI_1",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "COROP_NAAM",
+			"type": "esriFieldTypeString",
+			"alias": "COROP_NAAM",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "WGR_NAAM",
+			"type": "esriFieldTypeString",
+			"alias": "WGR_NAAM",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		}
+	],
+	"indexes": [
+		{
+			"name": "FDO_OBJECTID",
+			"fields": "OBJECTID",
+			"isAscending": true,
+			"isUnique": true,
+			"description": ""
+		},
+		{
+			"name": "FDO_SHAPE",
+			"fields": "SHAPE",
+			"isAscending": true,
+			"isUnique": false,
+			"description": ""
+		}
+	],
+	"types": [],
+	"templates": [
+		{
+			"name": "Onderwijsinstellingen",
+			"description": "",
+			"drawingTool": "esriFeatureEditToolPoint",
+			"prototype": {
+				"attributes": {
+					"VESTNAAM": null,
+					"STRAATNAAM": null,
+					"HUISNR_TOE": null,
+					"POSTCODE": null,
+					"PLAATSNAAM": null,
+					"GEMEENTENA": null,
+					"TELEFOONNU": null,
+					"HOOFDTYPE": null,
+					"ONDWGEBI_1": null,
+					"COROP_NAAM": null,
+					"WGR_NAAM": null
+				}
+			}
+		}
+	],
+	"supportedQueryFormats": "JSON, geoJSON",
+	"hasStaticData": false,
+	"maxRecordCount": 1000,
+	"standardMaxRecordCount": 32000,
+	"tileMaxRecordCount": 8000,
+	"maxRecordCountFactor": 1,
+	"capabilities": "Query"
+}

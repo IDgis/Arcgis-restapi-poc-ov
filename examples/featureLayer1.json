@@ -1,0 +1,162 @@
+{
+	"currentVersion": 10.51,
+	"id": 1,
+	"name": "Beschermingsplan Boomkikkers",
+	"type": "Feature Layer",
+	"serviceItemId": "edf6d445a5524f7a8739241986ee3bfc",
+	"displayField": "OBJECTID",
+	"description": "",
+	"copyrightText": "",
+	"defaultVisibility": true,
+	"editingInfo": {
+		"lastEditDate": null
+	},
+	"relationships": [],
+	"isDataVersioned": false,
+	"supportsCalculate": false,
+	"supportsTruncate": false,
+	"supportsAttachmentsByUploadId": false,
+	"supportsRollbackOnFailureParameter": false,
+	"supportsStatistics": false,
+	"supportsAdvancedQueries": false,
+	"supportsValidateSql": false,
+	"supportsCoordinatesQuantization": false,
+	"supportsApplyEditsWithGlobalIds": false,
+	"advancedQueryCapabilities": {
+		"supportsPagination": true,
+		"supportsPaginationOnAggregatedQueries": true,
+		"supportsQueryRelatedPagination": true,
+		"supportsQueryWithDistance": true,
+		"supportsReturningQueryExtent": true,
+		"supportsStatistics": false,
+		"supportsOrderBy": true,
+		"supportsDistinct": true,
+		"supportsQueryWithResultType": true,
+		"supportsSqlExpression": true,
+		"supportsAdvancedQueryRelated": true,
+		"supportsReturningGeometryCentroid": false,
+		"supportsQueryWithDatumTransformation": true
+	},
+	"useStandardizedQueries": false,
+	"geometryType": "esriGeometryPolygon",
+	"minScale": 0,
+	"maxScale": 0,
+	"extent": {
+		"xmin": 211380.421999998,
+		"ymin": 459128.75,
+		"xmax": 267618.469000001,
+		"ymax": 522329.344000001,
+		"spatialReference": {
+			"wkid": 28992,
+			"latestWkid": 28992
+		}
+	},
+	"drawingInfo": {
+		"renderer": {
+			"type": "simple",
+			"symbol": {
+				"type": "esriSFS",
+				"style": "esriSFSSolid",
+				"color": [
+					0,
+					0,
+					0,
+					0
+				],
+				"outline": {
+					"type": "esriSLS",
+					"style": "esriSLSSolid",
+					"color": [
+						0,
+						60,
+						200,
+						255
+					],
+					"width": 0.40000000000000002
+				}
+			},
+			"label": "",
+			"description": ""
+		},
+		"transparency": 0,
+		"labelingInfo": null
+	},
+	"allowGeometryUpdates": false,
+	"hasAttachments": false,
+	"htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+	"hasM": false,
+	"hasZ": false,
+	"objectIdField": "OBJECTID",
+	"globalIdField": "",
+	"typeIdField": "",
+	"fields": [
+		{
+			"name": "OBJECTID",
+			"type": "esriFieldTypeOID",
+			"alias": "OBJECTID",
+			"sqlType": "sqlTypeOther",
+			"nullable": false,
+			"editable": false,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "OMS",
+			"type": "esriFieldTypeString",
+			"alias": "OMS",
+			"sqlType": "sqlTypeOther",
+			"length": 200,
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "NR",
+			"type": "esriFieldTypeInteger",
+			"alias": "NR",
+			"sqlType": "sqlTypeOther",
+			"nullable": true,
+			"editable": true,
+			"domain": null,
+			"defaultValue": null
+		}
+	],
+	"indexes": [
+		{
+			"name": "FDO_OBJECTID",
+			"fields": "OBJECTID",
+			"isAscending": true,
+			"isUnique": true,
+			"description": ""
+		},
+		{
+			"name": "FDO_SHAPE",
+			"fields": "SHAPE",
+			"isAscending": true,
+			"isUnique": false,
+			"description": ""
+		}
+	],
+	"types": [],
+	"templates": [
+		{
+			"name": "Beschermingsplan Boomkikkers",
+			"description": "",
+			"drawingTool": "esriFeatureEditToolPoint",
+			"prototype": {
+				"attributes": {
+					"OMS": null,
+					"NR": null
+				}
+			}
+		}
+	],
+	"supportedQueryFormats": "JSON, geoJSON",
+	"hasStaticData": false,
+	"maxRecordCount": 1000,
+	"standardMaxRecordCount": 32000,
+	"tileMaxRecordCount": 8000,
+	"maxRecordCountFactor": 1,
+	"capabilities": "Query"
+}

@@ -1,0 +1,8 @@
+/start.sh
+/.classpath
+/.project
+/.settings/
+/.gradle/
+/mylog.log
+/bin
+/build

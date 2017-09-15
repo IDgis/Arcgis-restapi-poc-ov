@@ -1,0 +1,89 @@
+{
+	"currentVersion": 10.51,
+	"serviceItemId": "edf6d445a5524f7a8739241986ee3bfc",
+	"serviceDescription": "Kaartlagen voor testdata Overijssel.",
+	"hasVersionedData": false,
+	"supportsDisconnectedEditing": false,
+	"hasStaticData": false,
+	"maxRecordCount": 1000,
+	"supportedQueryFormats": "JSON",
+	"capabilities": "Query",
+	"description": "",
+	"copyrightText": "",
+	"spatialReference": {
+		"wkid": 28992,
+		"latestWkid": 28992
+	},
+	"initialExtent": {
+		"xmin": 189640,
+		"ymin": 464255,
+		"xmax": 280212,
+		"ymax": 512514,
+		"spatialReference": {
+			"wkid": 28992,
+			"latestWkid": 28992
+		}
+	},
+	"fullExtent": {
+		"xmin": 193640,
+		"ymin": 461255,
+		"xmax": 279212,
+		"ymax": 512114,
+		"spatialReference": {
+			"wkid": 28992,
+			"latestWkid": 28992
+		}
+	},
+	"allowGeometryUpdates": false,
+	"units": "esriMeters",
+	"size": 1032192,
+	"syncEnabled": false,
+	"supportsApplyEditsWithGlobalIds": false,
+	"editorTrackingInfo": {
+		"enableEditorTracking": false,
+		"enableOwnershipAccessControl": false,
+		"allowOthersToQuery": true,
+		"allowOthersToUpdate": false,
+		"allowOthersToDelete": false,
+		"allowAnonymousToUpdate": false,
+		"allowAnonymousToDelete": false
+	},
+	"xssPreventionInfo": {
+		"xssPreventionEnabled": true,
+		"xssPreventionRule": "InputOnly",
+		"xssInputRule": "rejectInvalid"
+	},
+	"layers": [
+		{
+			"id": 0,
+			"name": "Archeologische Verwachtingenkaart",
+			"parentLayerId": -1,
+			"defaultVisibility": true,
+			"subLayerIds": null,
+			"minScale": 0,
+			"maxScale": 0,
+			"geometryType": "esriGeometryPolygon"
+		},
+		{
+			"id": 1,
+			"name": "Beschermingsplan Boomkikkers",
+			"parentLayerId": -1,
+			"defaultVisibility": true,
+			"subLayerIds": null,
+			"minScale": 0,
+			"maxScale": 0,
+			"geometryType": "esriGeometryPolygon"
+		},
+		{
+			"id": 2,
+			"name": "Onderwijsinstellingen",
+			"parentLayerId": -1,
+			"defaultVisibility": true,
+			"subLayerIds": null,
+			"minScale": 0,
+			"maxScale": 0,
+			"geometryType": "esriGeometryPoint"
+		}
+	],
+	"tables": []
+}
