@@ -54,7 +54,7 @@ public class Controller {
 		
 		JsonObject obj = new JsonObject();
 		obj.addProperty("currentVersion", 10.51);
-		obj.addProperty("owningSystemUrl", "http://localhost:8080");
+		obj.addProperty("owningSystemUrl", "http://acc-agrest.geodataoverijssel.nl");
 		
 		JsonObject authInfo = new JsonObject();
 		obj.addProperty("isTokenBasedSecurity", false);
@@ -82,7 +82,7 @@ public class Controller {
 		
 		service.addProperty("name", "Testdata");
 		service.addProperty("type", "FeatureServer");
-		service.addProperty("url", "http://localhost:8080/rest/services/Testdata/FeatureServer");
+		service.addProperty("url", "http://acc-agrest.geodataoverijssel.nl/rest/services/Testdata/FeatureServer");
 		services.add(service);
 		
 		obj.add("services", services);
@@ -184,7 +184,7 @@ public class Controller {
 			@RequestParam(value="outFields", defaultValue="*") String outFields,
 			@RequestParam(value="outSR", defaultValue="28992") int outSR,
 			@RequestParam(value="resultOffset", defaultValue="0") int resultOffset,
-			@RequestParam(value="resultRecordCount", defaultValue="1000") int resultRecordCount) {
+			@RequestParam(value="resultRecordCount", defaultValue="8000") int resultRecordCount) {
 		
 		log.debug(String.format("Got a query request for layer %d, getting data...", layerId));
 		
